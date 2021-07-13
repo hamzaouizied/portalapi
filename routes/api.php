@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+<<<<<<< HEAD
 
 Route::post('login', 'AuthController@login');
 Route::group(['middleware' => ['auth:api','EnsureTokenIsValid', 'throttle:10,1']], function() {
@@ -20,3 +21,9 @@ Route::group(['middleware' => ['auth:api','EnsureTokenIsValid', 'throttle:10,1']
     Route::post('update/{id}', 'AuthController@updateUser');
     Route::post('logout', 'AuthController@updateUser');
 });
+=======
+//
+//Route::middleware('auth:api')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+>>>>>>> 'first'

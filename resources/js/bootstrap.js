@@ -3,7 +3,11 @@ window._ = require('lodash');
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
+<<<<<<< HEAD
  * CSRF token as a header based on the value of the "XSRF" token cookie.
+=======
+ * CSRF token as a navbars based on the value of the "XSRF" token cookie.
+>>>>>>> 'first'
  */
 
 window.axios = require('axios');

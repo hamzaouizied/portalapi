@@ -7,7 +7,11 @@ return [
     | Third Party Services
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | This file is for storing the credentials for third party services such
+=======
+    | This file is for storing the credentials for third party Services such
+>>>>>>> 'first'
     | as Mailgun, Postmark, AWS and more. This file provides the de facto
     | location for this type of information, allowing packages to have
     | a conventional file to locate the various service credentials.

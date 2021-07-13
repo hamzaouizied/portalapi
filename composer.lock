@@ -4,9 +4,75 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "bd167ac2fe020546806db7a2e624d37b",
     "packages": [
         {
+=======
+    "content-hash": "a0e3cf8cf886944a02d560fd4825d596",
+    "packages": [
+        {
+            "name": "anhskohbo/no-captcha",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anhskohbo/no-captcha.git",
+                "reference": "f654a4093bd2e9ddbdfad3297bb7aa142a55e611"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anhskohbo/no-captcha/zipball/f654a4093bd2e9ddbdfad3297bb7aa142a55e611",
+                "reference": "f654a4093bd2e9ddbdfad3297bb7aa142a55e611",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2|^7.0",
+                "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+                "php": ">=5.5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider"
+                    ],
+                    "aliases": {
+                        "NoCaptcha": "Anhskohbo\\NoCaptcha\\Facades\\NoCaptcha"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Anhskohbo\\NoCaptcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "anhskohbo",
+                    "email": "anhskohbo@gmail.com"
+                }
+            ],
+            "description": "No CAPTCHA reCAPTCHA For Laravel.",
+            "keywords": [
+                "captcha",
+                "laravel",
+                "laravel4",
+                "laravel5",
+                "laravel6",
+                "no-captcha",
+                "recaptcha"
+            ],
+            "time": "2020-09-10T02:31:52+00:00"
+        },
+        {
+>>>>>>> 'first'
             "name": "asm89/stack-cors",
             "version": "v2.0.3",
             "source": {
@@ -105,6 +171,7 @@
             "time": "2021-01-20T22:51:39+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "coconutcraig/laravel-postmark",
             "version": "v2.10.1",
             "source": {
@@ -235,6 +302,8 @@
             "time": "2021-04-09T23:57:26+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "doctrine/inflector",
             "version": "2.0.3",
             "source": {
@@ -540,6 +609,7 @@
             "time": "2020-10-22T13:48:01+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "firebase/php-jwt",
             "version": "v5.4.0",
             "source": {
@@ -593,6 +663,8 @@
             "time": "2021-06-23T19:00:23+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "fruitcake/laravel-cors",
             "version": "v2.0.4",
             "source": {
@@ -868,6 +940,7 @@
             "time": "2021-06-30T20:03:07+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laminas/laminas-diactoros",
             "version": "2.4.1",
             "source": {
@@ -1001,6 +1074,8 @@
             "time": "2020-09-14T14:23:00+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "laravel/framework",
             "version": "v7.30.4",
             "source": {
@@ -1159,6 +1234,7 @@
             "time": "2021-01-21T14:10:48+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/passport",
             "version": "v9.4.0",
             "source": {
@@ -1232,6 +1308,8 @@
             "time": "2020-12-04T09:37:12+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "laravel/tinker",
             "version": "v2.6.1",
             "source": {
@@ -1296,6 +1374,7 @@
             "time": "2021-03-02T16:53:12+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "lcobucci/jwt",
             "version": "3.4.5",
             "source": {
@@ -1359,6 +1438,8 @@
             "time": "2021-02-16T09:40:01+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "league/commonmark",
             "version": "1.6.5",
             "source": {
@@ -1407,6 +1488,7 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Colin O'Dell",
                     "email": "colinodell@gmail.com",
                     "homepage": "https://www.colinodell.com",
@@ -1476,6 +1558,27 @@
                 "listener"
             ],
             "time": "2018-11-26T11:52:41+00:00"
+=======
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Highly-extensible PHP Markdown parser which fully supports the CommonMark spec and Github-Flavored Markdown (GFM)",
+            "homepage": "https://commonmark.thephpleague.com",
+            "keywords": [
+                "commonmark",
+                "flavored",
+                "gfm",
+                "github",
+                "github-flavored",
+                "markdown",
+                "md",
+                "parser"
+            ],
+            "time": "2021-06-26T11:57:13+00:00"
+>>>>>>> 'first'
         },
         {
             "name": "league/flysystem",
@@ -1604,6 +1707,7 @@
             "time": "2021-01-18T20:58:21+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "league/oauth2-server",
             "version": "8.3.1",
             "source": {
@@ -1681,6 +1785,8 @@
             "time": "2021-06-04T08:28:35+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "monolog/monolog",
             "version": "2.3.0",
             "source": {
@@ -1894,6 +2000,7 @@
             "time": "2021-07-03T13:36:55+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "nyholm/psr7",
             "version": "1.4.1",
             "source": {
@@ -1957,6 +2064,8 @@
             "time": "2021-07-02T08:32:20+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "opis/closure",
             "version": "3.6.2",
             "source": {
@@ -2018,6 +2127,7 @@
             "time": "2021-04-09T13:42:10+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "paragonie/random_compat",
             "version": "v9.99.100",
             "source": {
@@ -2113,6 +2223,8 @@
             "time": "2015-12-19T14:08:53+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "phpoption/phpoption",
             "version": "1.7.5",
             "source": {
@@ -2168,6 +2280,7 @@
             "time": "2020-07-20T17:29:33+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "phpseclib/phpseclib",
             "version": "2.0.32",
             "source": {
@@ -2259,6 +2372,8 @@
             "time": "2021-06-12T12:12:59+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "psr/container",
             "version": "1.1.1",
             "source": {
@@ -4215,6 +4330,7 @@
             "time": "2021-06-12T10:15:01+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/psr-http-message-bridge",
             "version": "v2.1.0",
             "source": {
@@ -4285,6 +4401,8 @@
             "time": "2021-02-17T10:35:25+00:00"
         },
         {
+=======
+>>>>>>> 'first'
             "name": "symfony/routing",
             "version": "v5.3.0",
             "source": {

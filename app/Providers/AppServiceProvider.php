@@ -7,7 +7,11 @@ use Illuminate\Support\ServiceProvider;
 class AppServiceProvider extends ServiceProvider
 {
     /**
+<<<<<<< HEAD
      * Register any application services.
+=======
+     * Register any application Services.
+>>>>>>> 'first'
      *
      * @return void
      */
@@ -17,7 +21,11 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
+<<<<<<< HEAD
      * Bootstrap any application services.
+=======
+     * Bootstrap any application Services.
+>>>>>>> 'first'
      *
      * @return void
      */
